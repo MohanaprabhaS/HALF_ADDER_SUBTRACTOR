@@ -3,6 +3,9 @@
 Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
 **AIM:**
+REGISTER NO:21224040197
+NAME:MOHANAPRABHA S
+DATE:23.4.2025
 
 To design a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
@@ -59,38 +62,41 @@ Half Subtractor
 **Program:**
 
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-
-Developed by: Mohanaprabha.S
-
-RegisterNumber: 212224040197
-
 ```
-*Half_adder*
-module halfadd_top(a,b,sum,carry);
+HALF ADDER
+module exp3(a,b,sum,carry);
 input a,b;
-output sum,carry; 
- assign sum = a^b;
- assign carry = a & b;
+output sum,carry;
+assign sum= (a ^ b);
+assign carry= ( a & b);
 endmodule
 
-*Half_subtractor*
-module halfsub_top(a,b,D,Bo);
+HALF SUBTRACTOR
+module exp3(a,b,difference,borrow);
 input a,b;
-output D,Bo; 
-assign D = a ^ b;
-  assign Bo = ~a & b;
+output difference,borrow;
+assign difference= (a ^ b);
+assign borrow= ( ~a & b);
 endmodule
-
 ```
 
 **RTL Schematic**
+![Screenshot 2025-04-23 192245](https://github.com/user-attachments/assets/249dad4b-138c-45e1-871c-74740c31b79a)
 
-![Screenshot 2025-04-23 143055](https://github.com/user-attachments/assets/fce70299-e70e-4fd3-a92e-7d7996104a60)
+
+![Screenshot 2025-04-23 192258](https://github.com/user-attachments/assets/8b7190ff-ef81-46d3-9c59-eeea9786556b)
+
+
 
 **Output/TIMING Waveform**
 
-![Screenshot 2025-04-23 143105](https://github.com/user-attachments/assets/242176cd-e65a-414a-bb54-32c074f12c1c)
+![Screenshot 2025-04-23 192334](https://github.com/user-attachments/assets/fd28fe55-e727-4afe-af7c-ff84151b3663)
+
+
+![Screenshot 2025-04-23 192602](https://github.com/user-attachments/assets/791f7609-7f8e-4bfb-8806-92408979697d)
+
+
 
 **Result:**
 
-The code is excecuted successfully.
+Thus the Half-adder and Half-subtractor are studied and truth table and logic gates are verified successfully.
