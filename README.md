@@ -83,7 +83,10 @@ endmodule
 ```
 
 **RTL Schematic**
+
+
 ![Screenshot 2025-04-23 192245](https://github.com/user-attachments/assets/249dad4b-138c-45e1-871c-74740c31b79a)
+
 
 
 ![Screenshot 2025-04-23 192258](https://github.com/user-attachments/assets/8b7190ff-ef81-46d3-9c59-eeea9786556b)
