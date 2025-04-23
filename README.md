@@ -4,7 +4,9 @@ Implementation-of-Half-Adder-and-Half Subtractor-circuit
 
 **AIM:**
 REGISTER NO:21224040197
+
 NAME:MOHANAPRABHA S
+
 DATE:23.4.2025
 
 To design a half adder and half subtractor circuit and verify its truth table in Quartus using Verilog programming.
